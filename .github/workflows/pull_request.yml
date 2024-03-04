@@ -1,0 +1,12 @@
+name: pull-request-workflow
+on: pull_request
+
+jobs:
+  pull-request-jos:
+    runs-on: ubuntu-latest
+    steps:
+    - name: setp1
+      run: echo hello world
+    - name: setp2
+      run: |
+        echo github action
